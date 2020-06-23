@@ -1,0 +1,4 @@
+def pad_left(x):
+    N = 6 - len(x)
+    pog_num = x.zfill(N + len(x))
+    return pog_num
